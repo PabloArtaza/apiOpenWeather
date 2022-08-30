@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: rgb(171, 210, 244);
+}
+
+.modal{
+    background-color: rgb(184, 197, 192);
+    padding: 1em;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin: 1em;
+    font-family: 'Secular One', sans-serif;
+}
+
+.buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input{
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 7px;
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 20%;
+    border: none;
+    height: 2em;
+    width: 2em;
+}
+p#texto-ciudad{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+    font-size: 2.5em;
+}
+img.icono {
+    display: flex;
+    margin-inline: auto;
+}
+p#temperatura {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 2em;
+}
+p#descripcion-del-clima{
+    font-size: 1.5em;
+    margin-bottom: 0px;
+}
+p#humedad{
+    font-size: 0.8em;
+}
+p#viento{
+    font-size: 0.8em;
+}
